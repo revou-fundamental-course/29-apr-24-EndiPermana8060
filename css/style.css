@@ -23,7 +23,7 @@
     border: 1px solid black;
     margin: 10px;
 }
-.core-item>.item-right{
+.core-content>.item-right{
     background-color: aliceblue;
     border: 0;
     border-radius: 8px;
@@ -32,9 +32,14 @@
     text-align: center;
 }
 .our-package-content{
-    align-items: center;
+    background-color: rgb(77, 76, 76);
+    align-content: center;
 }
-
+.our-package-content>h1{
+    font-size: 25px;
+    font-weight: bold;
+    text-align: center;
+}
 .item-form{
     text-align: center;
 }
