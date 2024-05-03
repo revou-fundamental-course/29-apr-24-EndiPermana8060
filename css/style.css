@@ -1,0 +1,47 @@
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 32px;
+    padding-right: 32px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+}
+.nav-container>nav>button{
+    height: 32px;
+    border: 1px solid black;
+    background-color: white;
+}
+.content-container>header{
+    text-align: center;
+}
+.core-content{
+    display: flex;
+}
+.core-item{
+    height: 200px;
+    width: 100%;
+    border: 1px solid black;
+    margin: 10px;
+}
+.core-item>.item-right{
+    background-color: aliceblue;
+    border: 0;
+    border-radius: 8px;
+}
+.core-item>header>h2{
+    text-align: center;
+}
+.our-package-content{
+    align-items: center;
+}
+
+.item-form{
+    text-align: center;
+}
+.item-form>input{
+    height: 32px;
+    width: 50%;
+    margin-left: 8px;
+    border: 1px solid green;
+    border-radius: 4px;
+}
