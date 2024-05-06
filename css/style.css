@@ -16,23 +16,28 @@
 }
 .core-content{
     display: flex;
+    margin: 50px;
 }
 .core-item{
-    height: 200px;
-    width: 100%;
-    border: 1px solid black;
-    margin: 10px;
-}
-.core-content>.item-right{
     background-color: aliceblue;
+    width: 100%;
     border: 0;
     border-radius: 8px;
+    margin: 10px;
+}
+.core-content>.item-left{
+    padding-right: 30%;
+    height: 300px;
+    
+}
+.core-content>.item-right{
+    height: 500px;
 }
 .core-item>header>h2{
     text-align: center;
 }
 .our-package-content{
-    background-color: rgb(77, 76, 76);
+    background-color:aliceblue;
     align-content: center;
 }
 .our-package-content>h1{
@@ -41,12 +46,16 @@
     text-align: center;
 }
 .item-form{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
 }
 .item-form>input{
     height: 32px;
-    width: 50%;
+    width: 80%;
     margin-left: 8px;
     border: 1px solid green;
     border-radius: 4px;
+}
+.paragraf{
+    text-align: justify;
 }
