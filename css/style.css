@@ -25,6 +25,11 @@
     border-radius: 8px;
     margin: 10px;
 }
+p{
+    text-align: justify;
+    margin: 16px 45px 16px 16px;
+    font-family: monospace;
+}
 .core-content>.item-left{
     padding-right: 30%;
     height: 300px;
@@ -34,7 +39,8 @@
     height: 500px;
 }
 .core-item>header>h2{
-    text-align: center;
+    text-align: left;
+    margin: 40px 16px 16px 16px;
 }
 .our-package-content{
     background-color:aliceblue;
@@ -48,14 +54,19 @@
 .item-form{
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 .item-form>input{
     height: 32px;
-    width: 80%;
-    margin-left: 8px;
+    width: 60%;
+    margin-left: 30px;
     border: 1px solid green;
     border-radius: 4px;
 }
 .paragraf{
     text-align: justify;
+}
+.input{
+    margin-right: 80px;
+    margin-top: 30px;
 }
