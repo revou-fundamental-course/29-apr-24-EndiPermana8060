@@ -33,17 +33,20 @@ p{
 .core-content>.item-left{
     padding-right: 30%;
     height: 300px;
-    
+    margin-right: 80px;
 }
 .core-content>.item-right{
     height: 500px;
+}
+.core-item>header{
+    margin-left: 50px;
 }
 .core-item>header>h2{
     text-align: left;
     margin: 40px 16px 16px 16px;
 }
 .our-package-content{
-    background-color:aliceblue;
+    background-color:gray;
     align-content: center;
 }
 .our-package-content>h1{

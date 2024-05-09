@@ -8,8 +8,7 @@
 </head>
 <body>
     <header class="nav-container">
-        <div style="background-image: url(assets/download.png);border: 1px solid black;height: 32px;width: 32px;"></div>
-
+        <img src="assets/download.png" style="height: 32px;width: 32px;">
         <nav>
             <button>Home</button>
             <button>Our Package</button>
@@ -25,7 +24,20 @@
         </header>
 
         <section class="core-content">
-            <div class="core-item item-left"></div>
+            <div class="core-item item-left">
+                <p style="margin-top: 350px;
+                text-align: justify;
+                padding-left: 30px;
+                width: 200%;
+                font-size: 17px;
+                font-style: italic;
+                font-family: revert-layer">"Liburan jadi lebih menyenangkan bersama travel agentku."</p>
+                <div class="profile-card" style="display: flex;">
+                    <img src="assets/profile.png" alt="Florence Hughes" style="width:20%;padding: 20px;">
+                    <h2>Florence Hughes</h2>
+
+                  </div>
+            </div>
             <div class="core-item item-right">
                 <header>
                     <h2>Contact Us</h2>
@@ -33,12 +45,22 @@
                 </header>
 
                 <section class="item-form">
-                    <label class="input">Username:</label><input type="text">
+                    <label class="input">Your Name:</label><input type="text" style="margin-bottom: 30px;">
+                    <label class="in-email">Email Address:</label><input type="email" style="margin-bottom: 30px;">
+                    <label class="in-interested">What are you interested in?</label><input type="text" style="margin-bottom: 30px;">
+                    <button type="submit" style="width: 60%;margin-left: 30px;background-color: black;color: aliceblue;font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;padding-top: 10px;padding-bottom: 10px;">SEND</button>
                 </section>
             </div>
         </section>
-
-        <section  class="our-package-content">
+        <section class="benefits" style="text-align: left;margin-left: 10%;font-size: larger;font-style: italic;">
+            <h2>Your Trusted Choice</h2>
+            <ul>
+                <li style="margin-bottom: 20px;">1. Your first feature, written in the form of a benefit statement.</li>
+                <li style="margin-bottom: 20px;">2. Your second feature, written in the form of a benefit statement.</li>
+                <li style="margin-bottom: 20px;">3. Your third feature, written in the form of a benefit statement.</li>
+            </ul>
+        </section>
+        <section  class="our-package-content" style="margin-top: 30%;">
             <h1>Our Package</h1>
         </section>
     </article>
